@@ -1,0 +1,40 @@
+body
+{
+    background-color: #ffd583;
+}
+
+h1
+{
+    color: blue;
+    background-color: skyblue;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 5px dotted salmon;
+    border-radius: 20px;
+
+    animation-name: no;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    margin-top: 80px;
+
+}
+
+@keyframes no
+{
+    from{box-shadow: 1px 1px 38px black}
+    to{box-shadow: 1px 1px 38px grey}
+}
